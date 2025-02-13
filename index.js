@@ -41,14 +41,14 @@ require('./routes/order.routes')(app);
 require('./routes/state.routes')(app);
 require('./routes/category')(app);
 
-// db.sequelize.sync({ force: false }).then(async () => {
-//     // await initStates();
-//     // await initUserRoles();
-//     // await initCarousel();
-//     // await initCategories();
-//     // await initProductAttributes();
-//     // await initProductAttributeValues();
-// });
+db.sequelize.sync({ force: false }).then(async () => {
+    // await initStates();
+    // await initUserRoles();
+    // await initCarousel();
+    // await initCategories();
+    // await initProductAttributes();
+    // await initProductAttributeValues();
+});
 
 
 
