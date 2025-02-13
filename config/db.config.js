@@ -1,8 +1,8 @@
 const config = {
-    HOST: "localhost",
-    USER: "root",
-    PASSWORD: "Ceevit250",
-    DB: "erpsystem",
+    HOST: "sql.freedb.tech",
+    USER: "freedb_erpusers",
+    PASSWORD: "tn!s@Z5j!wCJdzC",
+    DB: "freedb_Mehedi_erp",
     dialect: "mysql",
     pool: {
         max: 5,
