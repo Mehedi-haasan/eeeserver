@@ -17,4 +17,12 @@ module.exports = function (app) {
     app.get("/api/get/single/users", [jwt.verifyToken], controller.getSingleUsers);
     app.patch("/api/update/single/users", [jwt.verifyToken], controller.updateUsers);
 
+
+    app.get("/", (req, res) => {
+        res.status(200).send({
+            success: true,
+            message: "Deploy Successfulll",
+        });
+    });
+
 };
