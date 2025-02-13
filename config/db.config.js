@@ -5,7 +5,7 @@ const config = {
     DB: "freedb_Mehedi_erp",
     dialect: "mysql",
     pool: {
-        max: 5,
+        max: 50,
         min: 0,
         acquire: 30000,
         idle: 10000
